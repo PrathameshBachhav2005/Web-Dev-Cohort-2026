@@ -1,0 +1,231 @@
+:root {
+    --text-lg: 1.125rem;
+    --font-geist: "ui-sans-serif ";
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://www.mintlify.com/hero/bg-dark.svg');
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 3px auto;
+}
+
+nav .navchild2 .nav_b1 {
+    margin: 10px;
+    font-size: 17px;
+    padding: 7px;
+    border-radius: 27px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration-line: none;
+
+font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+    
+}
+
+nav .navchild3 #b1 {
+    margin: 20px;
+    font-size: 17px;
+    padding: 9px;
+    border-radius: 27px;
+    border: 0.3px solid rgb(40, 40, 40);
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.navchild3 a {
+    text-decoration-line: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+nav .navchild3 #b2 {
+
+    padding: 9px;
+    border-radius: 27px;
+    border: 0.3px solid rgb(40, 40, 40);
+    color: #333;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.navchild3 #b2 a {
+    text-decoration-line: none;
+    color: #333;
+    font-size: 16px;
+}
+
+/* .parent .child1{
+    width:80%;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+
+}
+.parent span{
+    border:2px solid #188b5f;
+    border-radius: 12px;
+    padding: 4px;
+    background-color: #188b5f;
+}
+.parent .child1 button{ 
+    border-radius: 50px;
+    cursor: pointer;
+}*/
+
+.parent .child1 a {
+    text-decoration-line: none;
+}
+
+.parent .child1 {
+    width: 80%;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    padding-top: 18px;
+}
+
+.child1 img {
+    height: 20px;
+    color: #FFFFFF;
+    position: relative;
+    top: 4px;
+
+}
+
+.child1 #a1 span {
+    border: 2px solid #188b5f;
+    border-radius: 12px;
+    padding: 1px;
+    background-color: #188b5f;
+
+}
+
+.child1 #a1 {
+    color: #FFFFFF;
+    border-radius: 27px;
+    background-color: #222526;
+    border: 2px solid #222526;
+    padding: 0px 14px;
+    margin-right: 10px;
+    height: 5vh;
+      font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.parent .child2 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.child2 h1 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+    letter-spacing: -.02em;
+    font-size: max(2.5rem, min(4vw, 4rem));
+    margin-top: 16px;
+}
+
+.child2 p {
+    font-size: var(--text-lg);
+    line-height: 150%;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;            
+    font-weight: 400;
+    font-style: normal;
+
+    margin-top: 16px;
+}
+
+.child2 form {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.input-with-button {
+    position: relative;
+    display: inline-block;
+    width: calc(30% + 30px);
+    margin-left: -20px;
+    /* Pulls left */
+    margin-right: -20px;
+    /* Pulls right */
+}
+
+.input-with-button input {
+    width: 100%;
+    padding: 12px 50px 12px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: linear-gradient(135deg, #001f3f, #008080);
+    border-radius: 22px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: transparent;
+
+}
+
+.input-with-button button {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    background: #FFFFFF;
+    color: #333;
+    border: 1.5px solid #ccc;
+    padding: 5px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.input-with-button #form_b1 {
+    border-radius: 30px;
+}
+
+.child3 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.child3 img {
+    border-radius: 35px;
+}
