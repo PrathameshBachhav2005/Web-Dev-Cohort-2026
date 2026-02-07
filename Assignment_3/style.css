@@ -1,0 +1,523 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #14120b;
+    
+}
+
+#NavParent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 15px;
+    margin-top: 2px;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+#NavParent .nav1 {
+    width: 100px;
+}
+
+#NavParent .nav2 ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+#NavParent .nav2 ul li a {
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration-line: none;
+
+    font-family: "Carrois Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.nav3 .btn1 {
+    background-color: #14120b;
+    padding: 5px 10px 5px 10px;
+    /* padding: 5px 5.6px 10.5px 5.88px; */
+    border-radius: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(74, 73, 73);
+    color: #ffffff;
+}
+
+.nav3 .btn2 {
+    background-color: #ffffff;
+    padding: 5px 10px 5px 10px;
+    /* padding: 5px 5.6px 10.5px 5.88px; */
+    border-radius: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(74, 73, 73);
+    color: #14120b;
+}
+
+div .SecNav {
+    margin: 20px 15px;
+    color: #f2f1ed;
+    margin-top: 23vh;
+    font-size: 18px;
+    opacity: 0.5;
+
+    /* font-family: "Carrois Gothic", sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section1 .container {
+    div:first-child {
+        font-size: 35px;
+        font-weight: 500;
+        color: #f2f1ed;
+        margin-top: 10px;
+        margin: 10px 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    div:nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        font-size: 35px;
+        font-weight: 600;
+        color: #f2f1ed;
+        margin: -13px 15px;
+        opacity: 0.7;
+        margin-bottom: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    button:nth-child(3) {
+        display: flex;
+        font-size: 18px;
+        font-weight: 400;
+        color: #14120b;
+        background-color: #f2f1ed;
+        /* margin: 10px 15px; */
+        margin-left: 15px;
+        border-radius: 18px;
+        padding: 4px 7px 7px 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    div:nth-child(4) img {
+        margin: 43px 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 10%;
+        width: 79%;
+        height: 447px;
+
+    }
+}
+
+.section2 .container1 {
+
+    div:first-child {
+        font-size: 35px;
+        font-weight: 500;
+        color: #f2f1ed;
+        margin-top: 10px;
+        margin: 10px 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    div:nth-child(2) {
+        display: grid;
+        flex-direction: row;
+        font-size: 35px;
+        font-weight: 600;
+        color: #f2f1ed;
+        margin: 10px 15px;
+        opacity: 0.7;
+        margin-bottom: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+}
+
+#text1 {
+    font-family: "Carrois Gothic", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 32px 0px 6px 10px;
+    font-size: 25px;
+}
+
+#text2 {
+    font-family: "Carrois Gothic", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    margin-top: -12px;
+    margin-left: 28px;
+}
+
+.container1 .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    margin: 10px 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card1,
+.card2,
+.card3 {
+
+    background: #1e1c14;
+    padding: 32px;
+    border-radius: 12px;
+    height: 527px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Card 1 */
+.card1 h5 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 12px 0;
+    color: #ffffff;
+}
+
+.card1 p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    margin: -24px 0 16px 0;
+}
+
+.card1 a {
+    color: #f54e00;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: -21px;
+}
+
+.card1 a:hover {
+    color: #cf5015;
+}
+
+.card1 img {
+    width: 100%;
+    height: auto;
+    margin-top: -10px;
+}
+
+/* Card 2 */
+.card2 h5 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 12px 0;
+    color: #ffffff;
+}
+
+.card2 p {
+    font-size: 16px;
+    line-height: 2;
+    color: #666;
+    margin: -24px 0 16px 0;
+}
+
+.card2 a {
+    color: #f54e00;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: -21px;
+}
+
+.card2 a:hover {
+    color: #cf5015;
+
+}
+
+.card2 img {
+    width: 100%;
+    height: auto;
+    margin-top: -10px;
+}
+
+/* Card 3 */
+.card3 h5 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 12px 0;
+    color: #ffffff;
+}
+
+.card3 p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #666;
+    margin: -24px 0 16px 0;
+}
+
+.card3 a {
+    color: #f54e00;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: -13px;
+}
+
+.card3 a:hover {
+    color: #cf5015;
+
+}
+
+.card3 img {
+    width: 100%;
+    height: auto;
+    margin-top: -10px;
+}
+
+
+/* Section 3 */
+
+
+#text3 {
+    font-family: "Carrois Gothic", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #ffffff;
+    padding: 32px 0px 6px 27px;
+    font-size: 25px;
+}
+
+#text4 {
+    font-family: "Carrois Gothic", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #ffffff;
+    opacity: 0.7;
+    font-size: 25px;
+    margin-top: -12px;
+    margin-left: 28px;
+}
+
+.cardss_container {
+    color:#f2f1ed;
+    display: inline-flex;
+    row-gap: 20px;
+    margin: 15px 50px;
+    width: 100%;
+}
+.cardss_container .cardss {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #1e1c14;
+    width: 22%;
+    padding-left: 14px;
+    padding-top: 12px;
+    height: 85vh;
+    margin: 10px 6px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.cardss h5 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 12px 0;
+    color: #ffffff;
+}
+
+.cardss p {
+    font-size: 16px;
+    padding-top: 18px;
+    color: #666;
+    margin: -24px 0 16px 0;
+}
+
+.cardss a {
+    color: #f54e00;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: -13px;
+}
+
+.cardss img {
+    width: 100%;
+    height: auto;
+    margin-top: -10px;
+    padding-top: 10vh;
+}
+
+.heading{
+    color:#f2f1ed;
+    text-align: center;
+    position: relative;
+    top :120px;
+    font-family: "Carrois Gothic", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.normal_card {
+    color: rgb(246, 243, 238);
+    display: grid;
+    grid-template-rows: 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 120px;
+    row-gap: 20px;
+    column-gap: 10px;
+    border: 2px solid #2a271e;
+    width: 80%;
+    position: relative;
+    top:25vh;
+    left: 108px;
+}
+.info_card1 img{
+    width: 40px;
+    position: relative;
+    top: 50px;
+    padding-bottom: 17px;
+}
+.info_card1{
+    display:flex;
+    flex-direction: column;
+}
+
+.info_card2 img{
+    width: 40px;
+    position: relative;
+    top: 96px;
+    padding-bottom: 55px;
+}
+.info_card3 img{
+    width: 40px;
+    position: relative;
+    top: 66px;
+    padding-bottom: 31px;
+}
+.section5 h2{
+display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: 50vh;
+  font-size: 60px;
+  align-items: flex-end;
+  color: #ffffff;
+}
+.section5 a{
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    padding: 13px 18px 13px 18px;
+    width:10%;
+    text-decoration: none;
+    position: relative;
+    top: 55vh;
+    left: 620px;
+    color: #333;
+    background-color: #ffffff;
+    font-family: "Carrois Gothic", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+#footers{
+    color: #4a4343;
+    position: relative;
+    bottom: -70vh;
+    left: 40px;
+    padding-top: 15px;
+    border: 2px solid #1b1913;
+    display: grid;
+    width: 91%;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.firstgrid{
+    padding: 15px;
+}
+.firstgrid ul{
+    list-style-type: none;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.firstgrid .child{
+    text-decoration: none;
+    color: #e3e1de;
+}
+
+
+.secondgrid{
+    padding: 15px;
+}
+.secondgrid ul{
+    list-style-type: none;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.secondgrid .child{
+    text-decoration: none;
+    color: #e3e1de;
+}
+
+.thirdgrid{
+    padding: 15px;
+}
+.thirdgrid ul{
+    list-style-type: none;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.thirdgrid .child{
+    text-decoration: none;
+    color: #e3e1de;
+}
+
+.fourthgrid{
+    padding: 15px;
+}
+.fourthgrid ul{
+    list-style-type: none;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.fourthgrid .child{
+    text-decoration: none;
+    color: #e3e1de;
+}
+
+.fivegrid{
+  padding: 15px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.fivegrid ul{
+    list-style-type: none;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+.fivegrid .child{
+    text-decoration: none;
+    color: #e3e1de;
+}
+.bottom_img{
+  grid-row: -1;
+  justify-self: end;
+  align-self: end;
+  width: 80%; 
+  margin-top: 102px;
+}
+
+
+h1{
+    font-size: 17px;
+}
